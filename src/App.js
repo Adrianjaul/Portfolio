@@ -7,6 +7,7 @@ import Skills from './Components/Skills'
 import Cv from './Components/Cv'
 import Portfolio from './Components/Portfolio'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Cv/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

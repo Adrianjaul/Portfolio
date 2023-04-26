@@ -11,3 +11,147 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and (max-width:980px) {
+
+  nav {
+      display: none;
+  }
+
+  .nav-hidden {
+      display: none !important;
+    }
+ 
+  .nav-responsive{
+      display: block;
+  }
+
+  nav.responsive{
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 75px;
+      background-color: #252A2E;
+      width: 180px;
+  }
+
+  nav.responsive ul{
+      display: block !important;
+  }
+
+  nav.responsive ul li{
+      border-bottom: 1px solid #fff;
+      padding: 10px 0;
+  }
+} 
+
+
+@media (max-width: 768px) {
+  .contacts .file {
+    flex-direction: column;
+  }
+
+  .contacts .col {
+    width: 100%;
+  }
+
+  .contacts .col2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .contacts .col2 img {
+    width: 80%;
+    margin-bottom: 1vh;
+    margin-right: 20vh;
+  }
+    
+     .contacts .col2 .info {
+      position: static; 
+      font-size: 10px;
+      margin-left: 23.5vh;
+      transform: translateX(-50%);
+      background-color: #5894ee;
+      color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      width: 80%;
+      z-index: 1;
+      overflow: auto;
+      max-height: 80vh;
+  } 
+
+  
+    .info ul li {
+      font-size: 15px;
+    }
+  
+    .footer {
+      position: relative;
+      z-index: 0;
+    }
+  }
+  
+  
+
+       
+
+
+@media screen and (max-width:700px) {
+  .sobremi .file {
+      display: block;
+  }
+
+  .sobremi .file .col {
+      width: fit-content;
+  }
+
+  .skills .file {
+      display: block;
+  }
+
+  .skills .file .col {
+      width: 100%;
+  }
+
+  .skills .file .col .barra-skill {
+      width: 100%;
+  }
+
+  .curriculum .file {
+      display: block;
+  }
+
+  .curriculum .file .col {
+      width: 90%;
+  }
+
+  .curriculum .file .right {
+      margin-left: 20px;
+  }
+
+  .portfolio .galery {
+      display: block;
+      width: 100%;
+  }
+
+  .portfolio .galery .proyect {
+      max-width: 100%;
+  }
+
+  .portfolio .galery .proyect img {
+      width: 100%;
+  }
+
+  .contacts .file {
+      display: block;
+  }
+
+  .contacts .file .col2 {
+      width: 100%;
+  }
+
+} 
+
+

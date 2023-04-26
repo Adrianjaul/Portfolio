@@ -3,12 +3,13 @@ import "./Footer.css"
 import Linkedin from '../Assets/Linkedin.png'
 import Github from '../Assets/Github.png'
 import Email from '../Assets/Email.png'
+import Angles from '../Assets/Angles.png'
 
 export const Footer = () => {
   return (
     <footer>
     <a href="#inicio" class="up">
-        <i class="fa-solid fa-angles-up"></i>
+        <img className='fa-brands fa-Linkedin' src={Angles}/>
     </a>
 
     <div class="redes">

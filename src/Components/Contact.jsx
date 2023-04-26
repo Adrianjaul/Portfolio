@@ -27,9 +27,9 @@ export const Contact = () => {
     <label for="comments">Comentarios</label>
     <textarea name="comments" cols="30" rows="10" placeholder="Mensaje"></textarea>
 
-    <input class="button" type="submit" value="Enviar" />
+    <input className="button" type="submit" value="Enviar" />
 
-    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html" />
+    <input type="hidden" name="_next" value="http://localhost:3000/#contacts" />
     <input type="hidden" name="_captcha" value="false" />
   </form>
 </div>
