@@ -1,0 +1,125 @@
+.curriculum {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.curriculum .content-section {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2 {
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.curriculum .file {
+    display: flex;
+    justify-content: space-between;
+}
+
+.curriculum .file .col {
+    width: 49%;
+    padding: 0 20px;
+}
+
+.curriculum .file .col h3 {
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 25px; 
+}
+
+.curriculum .file .col .Experiencie {
+    margin-left: 20px;
+}
+
+.curriculum .file .left {
+    border-right: 2px solid #252A2E;
+}
+
+.curriculum .file .right {
+    border-left: 2px solid #252A2E;
+}
+
+.curriculum .file .item {
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+
+.curriculum .file .item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f8cd55;
+}
+
+.curriculum .file .item .taught {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.curriculum .file .item .hours {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.curriculum .file .item p {
+    line-height: 24px;
+}
+
+.curriculum .file .left {
+    border-right: 2px solid #f8cd55;
+    margin-right: 20px;
+}
+
+.curriculum .file .right {
+    border-left: 2px solid #f8cd55;
+    margin-left: 20px;
+}
+
+.curriculum .file .item .conectori {
+    height: 2px;
+    background-color: #f8cd55;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.curriculum .file .item .conectori .circuloi {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #f8cd55;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.curriculum .file .item .conectord {
+    height: 2px;
+    background-color: #f8cd55;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.curriculum .file .item .conectord .circulod {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #f8cd55;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}

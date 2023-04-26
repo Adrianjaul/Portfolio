@@ -1,0 +1,291 @@
+.skills {
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+    margin-bottom: 0;
+}
+
+.skills .content-section {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2 {
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skills .file {
+    display: flex;
+}
+
+.skills .file .col {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.skills .file .col h3 {
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 25px;
+}
+
+.skills .skill > span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skills .skill .barra-skill {
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .skill .progress {
+    background-color: #f8cd55;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+
+.skills .skill .barra-skill span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #f8cd55;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+
+/*Estas clases las agregaré dinamicamente mediante javascript*/
+
+.skills .skill .html {
+    width: 0%;
+    animation: 2s html forwards;
+}
+
+@keyframes html {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .css {
+    width: 0%;
+    animation: 2s css forwards;
+}
+
+@keyframes css {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .javascript {
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .java {
+    width: 0%;
+    animation: 2s java forwards;
+}
+
+@keyframes java {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.skills .skill .mysql {
+    width: 0%;
+    animation: 2s mysql forwards;
+}
+
+@keyframes mysql {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .intellij {
+    width: 0%;
+    animation: 2s intellij forwards;
+}
+
+@keyframes intellij {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.skills .skill .react {
+    width: 0%;
+    animation: 2s react forwards;
+}
+
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .flexbox {
+    width: 0%;
+    animation: 2s flexbox forwards;
+}
+
+@keyframes flexbox {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .grid {
+    width: 0%;
+    animation: 2s grid forwards;
+}
+
+@keyframes grid {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .bootstrap {
+    width: 0%;
+    animation: 2s bootstrap forwards;
+}
+
+@keyframes bootstrap {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .git {
+    width: 0%;
+    animation: 2s git forwards;
+}
+
+@keyframes git {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .node {
+    width: 0%;
+    animation: 2s node forwards;
+}
+
+@keyframes node {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .github {
+    width: 0%;
+    animation: 2s github forwards;
+}
+
+@keyframes github {
+    0%{width: 0%;}
+    100%{width: 88%;}
+}
+
+.skills .skill .jyra {
+    width: 0%;
+    animation: 2s jyra forwards;
+}
+
+@keyframes jyra {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .confluence {
+    width: 0%;
+    animation: 2s confluence forwards;
+}
+
+@keyframes confluence {
+    0%{width: 0%;}
+    100%{width: 87%;}
+}
+
+.skills .skill .figma {
+    width: 0%;
+    animation: 2s figma forwards;
+}
+
+@keyframes figma {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .wordpress {
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+
+@keyframes wordpress {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+.skills .skill .comunicacion {
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .trabajo-en-equipo {
+    width: 0%;
+    animation: 2s trabajo-en-equipo forwards;
+}
+
+@keyframes trabajo-en-equipo {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .creatividad {
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .dedicacion {
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 87%;}
+}
+
+.skills .skill .project-managment {
+    width: 0%;
+    animation: 2s proyect-managment forwards;
+}
+
+@keyframes proyect-managment {
+    0%{width: 0%;}
+    100%{width: 87%;}
+}

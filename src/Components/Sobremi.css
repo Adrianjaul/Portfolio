@@ -1,0 +1,125 @@
+.sobremi {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobremi .content-section {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2 {
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobremi .content-section p {
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobremi .content-section p span {
+    color: #f8cd55;
+    font-weight: bold;
+} 
+ 
+.sobremi .file {
+    display: flex;
+}
+
+.sobremi .file .col {
+    width: 50%;
+}
+
+.sobremi .file .col h3 {
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 25px;
+}
+
+.sobremi .file .col ul {
+    list-style: none;
+}
+
+.sobremi .file .col ul li {
+    margin: 12px 0;
+}
+
+.sobremi .file .col ul li strong {
+    display: inline-block;
+    color: #f8cd55;
+    width: 130px;
+}
+
+.sobremi .file .col ul li span {
+    background-color:#f8cd55 ;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.sobremi .file .col .container-interesets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobremi .file .col .container-interesets .interesets {
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    font-size: 13px;
+}
+
+.sobremi .file .col .container-interesets .interesets:hover {
+    background-color: #f8cd55;
+}
+
+.sobremi .file .col .container-interesets .interesets i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sobremi button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.sobremi button a {
+    color: white;
+    text-decoration: none;
+}
+
+.sobremi button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #f8cd55;
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay {
+    width: 100%;
+}
