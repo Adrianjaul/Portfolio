@@ -68,7 +68,7 @@
 }
 
 
-/*Estas clases las agregaré dinamicamente mediante javascript*/
+
 
 .skills .skill .html {
     width: 0%;
@@ -270,6 +270,16 @@
     100%{width: 85%;}
 }
 
+.skills .skill .creatividad2 {
+    width: 0%;
+    animation: 2s creatividad2 forwards;
+}
+
+@keyframes creatividad2 {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
 .skills .skill .dedicacion {
     width: 0%;
     animation: 2s dedicacion forwards;
@@ -280,12 +290,15 @@
     100%{width: 87%;}
 }
 
-.skills .skill .project-managment {
+.project-managment {
     width: 0%;
-    animation: 2s proyect-managment forwards;
+    animation: 2s Hola forwards;
 }
 
-@keyframes proyect-managment {
+@keyframes Hola {
     0%{width: 0%;}
     100%{width: 87%;}
 }
+
+
+

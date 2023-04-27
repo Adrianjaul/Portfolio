@@ -196,10 +196,10 @@ export const Skills = () => {
                             <span>90%</span>
                         </div>
                     </div>
-                  </div>
+                  </div> 
 
                   <div class="skill">
-                    <span>Dedicación</span>
+                    <span>Dedicacion</span>
                     <div class="barra-skill">
                         <div class="progress">
                             <span>95%</span>
@@ -208,13 +208,15 @@ export const Skills = () => {
                   </div>
 
                   <div class="skill">
-                    <span>Project Managment</span>
+                    <span>Project managment</span>
                     <div class="barra-skill">
                         <div class="progress">
                             <span>75%</span>
                         </div>
                     </div>
                   </div>
+                  
+
                 </div>
             </div>
         </div>
