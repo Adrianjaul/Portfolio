@@ -1,10 +1,21 @@
 import React from 'react'
 import "./Sobremi.css"
+import Download from '../Assets/Download.png';
+import Gamepad from '../Assets/Gamepad.png';
+import Headphones from '../Assets/Headphones.png';
+import Plane from '../Assets/Plane.png';
+import Desktop from '../Assets/Desktop.png';
+import PersonHicking from '../Assets/PersonHiking.png';
+import Film from '../Assets/Film.png';
+import Laptop from '../Assets/Laptop.png';
+import Tree from '../Assets/Tree.png';
+
+
 
 export const Sobremi = () => {
   return (
-    <section id="sobremi" class="sobremi">
-    <div class="content-section">
+    <section id="sobremi" className="sobremi">
+    <div className="content-section">
 
         <h2>Sobre Mí</h2>
 
@@ -38,9 +49,9 @@ export const Sobremi = () => {
             
             a aprender todo lo que sea necesario para ayudar a lograr los objetivos del equipo.</p>
 
-        <div class="file">
+        <div className="file">
 
-            <div class="col">
+            <div className="col">
 
                 <h3>Datos Personales</h3>
                 <ul>
@@ -67,49 +78,50 @@ export const Sobremi = () => {
                 </ul>
             </div>
 
-            <div class="col">
+            <div className="col">
 
                 <h3>Intereses</h3>
 
-                <div class="container-interesets">
+                <div className="container-interesets">
 
-                    <div class="interesets">
-                        <i class="fa-solid fa-gamepad"></i>
+                    <div className="interesets">
+                        <img className='fa-solid fa-gamepad' src={Gamepad}/>
                         <span>JUEGOS</span>
                     </div>
 
-                    <div class="interesets">                       
-                        <i class="fa-solid fa-headphones"></i>
+                    <div className="interesets">                       
+                        <img className='fa-solid fa-headphones' src={Headphones}/>
                         <span>MUSICA</span>
                     </div>
 
-                    <div class="interesets">
-                        <i class="fa-solid fa-plane"></i>
+                    <div className="interesets">
+                        <img className='fa-solid fa-plane' src={Plane}/>
                         <span>VIAJAR</span>
                     </div>
 
-                    <div class="interesets">
-                        <i class="fa-solid fa-desktop"></i>
+                    <div className="interesets">                       
+                        <img className='fa-solid fa-desktop' src={Desktop}/>
                         <span>TECNOLOGIA</span>
                     </div>
 
-                    <div class="interesets">                      
-                        <i class="fa-solid fa-person-hiking"></i>
+                    <div className="interesets">                      
+                        <img className='fa-solid fa-personhicking' src={PersonHicking}/>
                         <span>DEPORTE</span>
                     </div>
 
-                    <div class="interesets">                      
-                        <i class="fa-solid fa-film"></i>
+                    <div className="interesets">                      
+                        <img className='fa-solid fa-film' src={Film}/>
                         <span>CINE</span>
                     </div>
 
-                    <div class="interesets">                      
-                        <i class="fa-sharp fa-solid fa-laptop-code"></i>
+                    <div className="interesets">                      
+                        <img className='fa-solid fa-laptop' src={Laptop}/>
                         <span>INFORMATICA</span>
                     </div>
 
-                    <div class="interesets">                      
-                        <i class="fa-solid fa-tree"></i>
+                    <div className="interesets">                      
+                        <i className="fa-solid fa-tree"></i>
+                        <img className='fa-solid fa-tree' src={Tree}/>
                         <span>NATURALEZA</span>
                     </div>
                     
@@ -118,9 +130,9 @@ export const Sobremi = () => {
         </div>
 
         <button>
-            <a href="cv/CV Adrián Jaular Iglesias.pdf" download=""> Descargar CV </a>
-            <i class="fa-solid fa-download"></i>
-            <span class="overlay"></span>
+            <a href="cv/CV Adrián Jaular Iglesias.pdf" download=""> Descargar CV <img className='Download' src={Download}/></a>
+            <i className="fa-solid fa-download"></i>
+            <span className="overlay"></span>
         </button>
 
     </div>

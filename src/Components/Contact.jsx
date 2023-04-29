@@ -1,19 +1,22 @@
 import React from 'react'
 import "./Contact.css"
 import Mapa from '../Assets/Mapa.png'
+import Mobile from '../Assets/Mobile.png';
+import Location from '../Assets/Location.png';
+import Envelope from '../Assets/Envelope.png'
 
 
 
 
 export const Contact = () => {
   return (
-    <section id="contacts" class="contacts">
-        <div class="content-section">
+    <section id="contacts" className="contacts">
+        <div className="content-section">
             <h2>CONTACTO</h2>
-            <div class="file">  
+            <div className="file">  
 
 
-            <div class="col">
+            <div className="col">
   <form action="https://formsubmit.co/adrijaul@outlook.com" method="POST">
     <label for="Nombre">Nombre</label>
     <input type="text" name="name" placeholder="Tú Nombre" />
@@ -36,22 +39,22 @@ export const Contact = () => {
 
 
                 {/* <Mapa  */}
-                <div class="col2">
+                <div className="col2">
                     <img className='Mapa' src={Mapa}/>
-                    <div class="info">
+                    <div className="info">
                         <ul>
                             <li>
-                                <i class="fa-solid fa-location-dot"></i>
+                                <img className='fa-solid fa-location' src={Location}/>
                                 Langreo, (Asturias)
                             </li>
 
                             <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
+                                <img className='fa-solid fa-mobile-screen' src={Mobile}/>
                                 Teléfono: 615024907
                             </li>
 
                             <li>
-                                <i id="mail" class="fa-solid fa-envelope"></i>
+                                <img className='fa-solid fa-envelope' id='mail' src={Envelope}/>
                                 Email: adrijaulig@gmail.com
                             </li>
                         </ul>

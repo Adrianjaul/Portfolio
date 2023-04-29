@@ -3,214 +3,216 @@ import "./Skills.css"
 
 
 
+
 export const Skills = () => {
-  return (
-    <section class="skills" id="skills">
-        <div class="content-section">
+  return ( 
+    
+     <section className="skills" id="skills">
+        <div className="content-section">
             <h2>Skills</h2>
-            <div class="file">
-               {/* Technical Skill */}
-                <div class="col">
+            <div className="file">
+               
+                <div className="col">
                     <h3>Technical Skills</h3>
                     
-                    <div class="skill">
+                    <div className="skill">
                         <span>Html</span>
-                        <div class="barra-skill">
-                            <div class="progress">
+                        <div className="barra-skill">
+                            <div className="progress">
                                 <span>90%</span>
                             </div>
                         </div>
                     </div>
 
-                  <div class="skill">
+                  <div className="skill">
                         <span>Css</span>
-                        <div class="barra-skill">
-                            <div class="progress">
+                        <div className="barra-skill">
+                            <div className="progress">
                                 <span>85%</span>
                             </div>
                         </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>JavaScript</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>75%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Java</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>60%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>MySql</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>75%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Intellij</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>50%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>React</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>75%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Felxbox</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>90%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Grid</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>85%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Bootstrap</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>90%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Git</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>90%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Node</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>85%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Github</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>88%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Jyra</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>90%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Confluence</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>87%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Figma</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>90%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Wordpress</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>65%</span>
                         </div>
                     </div>
                   </div>
                 </div>
 
-                {/* PROFESSIONAL SKILLS  */}
-                <div class="col">
+                 
+                <div className="col">
                     <h3>Professional Skills</h3>
                   
-                    <div class="skill">
+                    <div className="skill">
                     <span>Comunicación</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>80%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Trabajo en equipo</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>90%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Creatividad</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>90%</span>
                         </div>
                     </div>
                   </div> 
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Dedicacion</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>95%</span>
                         </div>
                     </div>
                   </div>
 
-                  <div class="skill">
+                  <div className="skill">
                     <span>Project managment</span>
-                    <div class="barra-skill">
-                        <div class="progress">
+                    <div className="barra-skill">
+                        <div className="progress">
                             <span>75%</span>
                         </div>
                     </div>

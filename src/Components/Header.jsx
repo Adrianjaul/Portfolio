@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Header.css"
-
+import Hamburguer from '../Assets/Hamburguer.png';
 
 
 export const Header = () => {
   return (
-    <div class="header-container">
+    <div className="header-container">
         <header>
-            <div class="logo">
+            <div className="logo">
                 <a href="#">Adrián</a>
             </div>
             <nav id="nav">
@@ -19,9 +19,9 @@ export const Header = () => {
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#contacts">CONTACTO</a></li>
                 </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
+            </nav> 
+             <div className="nav-responsive" onclick="mostrarOcultarMenu()"> 
+                <img className="fa-solid fa-bars" src={Hamburguer}/>
             </div>
         </header>
     </div>
@@ -29,4 +29,7 @@ export const Header = () => {
 }
 
 
-export default Header;
+export default Header; 
+
+
+

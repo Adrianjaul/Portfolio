@@ -7,15 +7,15 @@ import "./Inicio.css"
 
 export const Inicio = () => {
   return (
-    <section id="inicio" class="inicio">
-    <div class="banner-content">
-        <div class="container-img">
+    <section id="inicio" className="inicio">
+    <div className="banner-content">
+        <div className="container-img">
             <img className='Foto Redonda' src={Photo}/>
             
         </div>
         <h1>Adrián Jaular</h1>
         <h2>Desarrollador Web Full Stack Junior</h2>
-        <div class="redes">
+        <div className="redes">
             <a href="#"><img src={Linkedin}/></a>
             <a href="#"><img src={Github}/></a>
             <a href="mailto:adrijaulig@gmail.com"><img src={Email}/></a>

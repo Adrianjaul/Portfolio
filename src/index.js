@@ -28,12 +28,11 @@ function seleccionar(){
 }
 
 
-function efectoHabilidades() {
+ /* function efectoHabilidades() {
   var skills = document.getElementById("skills");
   var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
   if (distancia_skills >= 300) {
     let habilidades = document.getElementsByClassName("progress");
-    console.log(habilidades);
     habilidades[0].classList.add("html");
     habilidades[1].classList.add("css");
     habilidades[2].classList.add("javascript");
@@ -57,20 +56,13 @@ function efectoHabilidades() {
     habilidades[20].classList.add("dedicacion");
     habilidades[21].classList.add("project-managment");
   }
-  }
+  } 
 
- 
-
-
-
-
-
-
-window.onscroll = function(){
+ window.onscroll = function(){
     efectoHabilidades();
-} 
+}  
 
-
+ */
 
 reportWebVitals();
 
